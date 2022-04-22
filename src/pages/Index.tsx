@@ -1,24 +1,9 @@
-import { Link } from "react-router-dom";
-
-const Simple = () => {
+const Index = () => {
   return (
-    <div className="container mx-auto">
-      <h1 className="text-xl">Project for edu drag and drop with ReactJS</h1>
-      <nav className="mt-2">
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/simple">Simple DND</Link>
-          </li>
-          <li>
-            <Link to="/board">Imitation of board with card</Link>
-          </li>
-        </ul>
-      </nav>
+    <div className="container mx-auto mt-10">
+      <h1 className="text-5xl">Project for edu drag and drop with ReactJS</h1>
     </div>
   );
 };
 
-export default Simple;
+export default Index;
