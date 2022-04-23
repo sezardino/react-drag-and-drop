@@ -1,6 +1,6 @@
 import { IBoard, ITask } from "./types";
 
-export const boardsArr: IBoard[] = [
+export const columnsArr: IBoard[] = [
   {
     id: "todo",
     title: "To Do",
